@@ -1,0 +1,7 @@
+Agent(gamma=0.99, epsilon=1.0, batch_size=64, n_actions=10 * 4, input_dims=[7 + 10], lr=0.0003)
+
+self.Q_eval = DQN(lr, n_actions=n_actions,
+                           input_dims=input_dims,
+                           fc1_dims=256, fc2_dims=256, fc3_dims=128)
+
+max_mem_size=100000, eps_end=0.005, eps_dec=5e-5):
